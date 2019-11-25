@@ -243,7 +243,7 @@ The admin user has a key added to `.ssh/authorized_keys` with the ID field `root
 ## Observation 2: ssh-dss explicitly enabled in /root/.ssh/config
 The title pretty much says it all. The config applies only to the host support.webtitan.com, which is used for the "secure" support connection, and while it might not be a huge deal, ssh-dss has been deprecated by OpenSSH as outlined here https://www.openssh.com/legacy.html.
 
-## Observation 3: Database config files under webrooti (CVE-2019-19018)
+## Observation 3: Database config files under webroot (CVE-2019-19018)
 An .ini file is reachable under the admin interface web service which reveals the database username - not a huge deal, as it's always set to titax as far as we know.
 http://wt/include/dbconfig.ini
 
