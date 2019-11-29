@@ -1,3 +1,5 @@
+<b> Update: </b>According to TitanHQ, the issues mentioned below have been resolved in version 5.18.
+
 # A quick look at WebTitan
 A while ago a colleague of mine spotted some suspicious traffic while monitoring a network. The traffic appeared to be the plaintext download of a shellscript, and it turned out that the script was being downloaded by an appliance known as "SpamTitan". The script was downloaded over HTTP and automatically run as root, so we reported it and you can read more about it [here](https://write-up.github.io/CVE-2019-6800/).
 
